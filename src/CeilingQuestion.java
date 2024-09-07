@@ -1,7 +1,7 @@
 public class CeilingQuestion {
     public static void main(String[] args) {
         int[] arr = {-21, -24, -6, 0, 10, 23, 64, 77, 324, 1013, 4351};
-        int target = 25;
+        int target = 4355;
         int ans = ceiling(arr, target);
         System.out.println("Ceiling index is " + ans);
     }
